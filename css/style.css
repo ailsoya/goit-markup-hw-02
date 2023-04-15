@@ -3,7 +3,6 @@
     --text: #434455;
     --link: #4d5ae5;
     --link-cont: #404bbf;
-    --button-hov: #404ddf;
     --spanny: #2e2f42;
     --address: #434455;
 }
@@ -19,7 +18,10 @@ body {
 .big-header {
     font-weight: 600;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--background);
 }
 
 .innav {
@@ -50,16 +52,18 @@ body {
 }
 
 .but {
+    font-family: "Roboto", sans-serif;
     color: var(--background);
     background-color: var(--link);
     cursor: pointer;
     font-size: 16px;
-    line-height: 24px;
-    font-weight: 600;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.04em;
 }
 
 .but:hover, .but:focus {
-    background-color: var(--button-hov);
+    background-color: var(--link-cont);
 }
 
 .sect-title {
@@ -92,4 +96,8 @@ body {
 
 .contacts {
     font-style: normal;
+}
+
+.first-sect {
+    background-color: var(--spanny);
 }

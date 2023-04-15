@@ -62,7 +62,7 @@ body {
     letter-spacing: 0.04em;
 }
 
-.filter {
+.filteri {
     font-family: "Roboto", sans-serif;
     color: var(--link);
     background-color: var(--cloud);
@@ -73,7 +73,7 @@ body {
     letter-spacing: 0.04em;
 }
 
-.filter:hover, .filter:focus {
+.filteri:hover, .filteri:focus {
     color: var(--background);
     background-color: var(--link-cont);
 }

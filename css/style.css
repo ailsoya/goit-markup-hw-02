@@ -62,6 +62,10 @@ body {
     letter-spacing: 0.04em;
 }
 
+.but:hover, .but:focus {
+    background-color: var(--link-cont);
+}
+
 .filteri {
     font-family: "Roboto", sans-serif;
     color: var(--link);

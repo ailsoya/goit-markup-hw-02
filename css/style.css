@@ -4,6 +4,7 @@
     --link: #4d5ae5;
     --link-cont: #404bbf;
     --spanny: #2e2f42;
+    --cloud: #f4f4fd;
 }
 
 body {
@@ -113,4 +114,20 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.fourth-sect {
+    background-color: var(--cloud);
+}
+
+.workers {
+    background-color: var(--background);
+}
+
+.footy {
+    background-color: var(--spanny);
+}
+
+.spany-two {
+    color: var(--cloud);
 }
